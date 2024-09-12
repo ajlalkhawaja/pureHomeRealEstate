@@ -1,0 +1,94 @@
+body {
+    overflow-x: hidden;
+}
+.sticky {
+    width: 100%
+  }
+  
+  .fixed {
+    position: fixed;
+    top:0;
+    background-color: #000;
+    opacity: 0.8;
+  }
+  .fixed .navbar-brand img {
+    max-height: 50px;
+}
+  .fixed .nav li a {
+    padding: 12px 12px;
+}
+.navbar {
+    background-color: transparent;
+}
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+.navbar-brand img {
+    max-width: 200px;
+    max-height: 100px;
+}
+.banner-wrapper {
+    position: relative;
+    height: 100%;
+}
+.banner {
+    width: 100%; 
+    height: 100%;
+    position: relative;
+    top: 0;
+    z-index: -1;
+}
+.searchBar {
+    position: relative;
+    bottom: 50px;
+    left: 15px;
+    right: 15px;
+    width: 100%;
+}
+.nav li a {
+    padding: 26px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-align: none;
+}
+.nav li a:hover {
+    font-weight: 700;
+    color: #50ffe4;
+    border-bottom: 2px solid #50ffe4;
+}
+.searchBar .col-3 select,
+.searchBar .col-3 input {
+    font-size: 15px;
+    line-height: 48px;
+    margin-top: 6px;
+    padding-left: 5px;
+    color: #8c91a3;
+    background-color: #fff;
+    border: none;
+    border-right: 1px solid #D8EDE8;
+    border-radius: 0;
+    min-height: 66px;
+    width: 100%;
+}
+.searchBar .col-3 input {
+    background-color: #00a376;
+    color: #fff;
+    border-right: 0;
+}
+.searchBar .col-3 input::placeholder {
+    color: #fff;
+}
+
+.property-item.card {
+    padding-top: 30px;
+}
+.property-item.card {
+    padding-top: 30px;
+}
+body .text-primary {
+    color: #00a376 !important;
+}
