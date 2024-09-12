@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif !important;
 }
 .sticky {
     width: 100%
@@ -91,4 +92,50 @@ header {
 }
 body .text-primary {
     color: #00a376 !important;
+}
+.property-desc h2 {
+    max-width: 500px;
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #60b848;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+.property-desc h2 p {
+    font-size: 28px;
+    color: #212121;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: none;
+}
+.property-desc p {
+    font-size: 16px;
+    color: #70778a;
+    line-height: 1.5;
+}
+.property-desc ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 15px;
+    padding: 0;
+}
+.property-desc ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #70778a;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #000;
+}
+footer img {
+    max-height: 50px !important;
+}
+footer li a  {
+    padding: 12px !important;
 }
